@@ -24,7 +24,7 @@
 ////////////////////// Mutual /////////////////////
 
 const int frequencyInact = 100;               // Frequency value for inactive state
-const int bitDuration = 40;                   // Duration of each bit (clock time)
+const int bitDuration = 35;                   // Duration of each bit (clock time)
 
 bool transmitting = false;                    // Indication if transmission is in progress
 
@@ -52,8 +52,8 @@ bool stringComplete = false;                  // Indication if a complete string
 
 const int photoPin = 3;                       // Digital pin number for the photodiode
 
-const int frequencyIn0 = 600;                 // Receiving frequency for bit 0
-const int frequencyIn1 = 800;                 // Receiving Frequency for bit 1
+const int frequencyIn0 = 1400;                 // Receiving frequency for bit 0
+const int frequencyIn1 = 1600;                 // Receiving Frequency for bit 1
 const int frequencyTolerance = 75;            // Tolerance receiving frequency
 
 const int missingSourceTimeout = 250000;      // Timeout for pulseIn()

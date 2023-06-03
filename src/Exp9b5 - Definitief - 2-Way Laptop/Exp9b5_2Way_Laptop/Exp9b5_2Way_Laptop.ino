@@ -24,7 +24,7 @@
 ////////////////////// Mutual /////////////////////
 
 const int frequencyInact = 100;               // Frequency value for inactive state
-const int bitDuration = 40;                   // Duration of each bit (clock time)
+const int bitDuration = 35;                   // Duration of each bit (clock time)
 
 bool transmitting = false;                    // Indication if transmission is in progress
 
@@ -33,8 +33,8 @@ bool transmitting = false;                    // Indication if transmission is i
 
 const int ledPin = 5;                         // Digital pin number for the LED
 
-const int frequencyOut0 = 600;               // Transmitting frequency for bit 0
-const int frequencyOut1 = 800;               // Transmitting frequency for bit 1
+const int frequencyOut0 = 1400;               // Transmitting frequency for bit 0
+const int frequencyOut1 = 1600;               // Transmitting frequency for bit 1
 
 int outputIndex = 0;                          // Index for the current character being transmitted
 
